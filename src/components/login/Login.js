@@ -73,9 +73,6 @@ const Login = ({ setIsLoggedIn, setIsAdmin}) => {
             <Typography variant="body2" sx={{ mt: 1 }}><Link href="/signup" underline="always" style={{ color: 'blue' }}>
               Don't have an account? Sign Up</Link>
             </Typography>
-            <Typography variant="body2" color="textSecondary" sx={{ mt: 1 }}>
-              Copyright © upGrad 2021.
-            </Typography>
           </Grid>
         </Grid>
       </Grid>
