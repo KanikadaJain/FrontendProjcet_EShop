@@ -3,6 +3,7 @@ import { Box, Button, TextField, Typography, Link } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import Grid from "@mui/material/Grid";
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import Footer from "../footer/footer";
 
 const Signup = () => {
   const [email, setEmail] = useState('');
@@ -85,9 +86,7 @@ const Signup = () => {
 						<Grid item xs={4}/>
 					</Grid>
 				</Grid>
-        <div style={{display: 'flex', justifyContent: 'center'}}>
-            <Typography variant="body2">Copyright © <a href="https://www.upgrad.com/" target="blank">upGrad</a> 2023.</Typography>
-        </div>
+        <Footer />
 			</Box>
   );
 };

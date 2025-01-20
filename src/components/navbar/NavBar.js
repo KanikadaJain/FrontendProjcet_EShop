@@ -52,6 +52,7 @@ console.log("nav"+isAdmin);
               className="searchInput"
             />
           </div>
+          <Box sx={{ flexGrow: 1 }} />
             {isAdmin && (
               <Link to="/add-products" className="navLink">
                 <Button color="inherit">Add Products</Button>
